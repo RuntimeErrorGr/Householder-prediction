@@ -16,7 +16,7 @@ la HSV cu ajutorul functiei RGB2HSV implementata cu ajutorul algoritmului din
 enunt pe care l-am scalat la o matrice de pixeli.
 
 
-3)convert: 
+3) convert: 
 transforma o imagine in format RGB intr-o imagine in format HSV, astfel:
 	- Sunt aduse valorile componentelor r, g si b in intervalul [0, 1]
 	- Se concateneaza componentele r, g si b modificate
