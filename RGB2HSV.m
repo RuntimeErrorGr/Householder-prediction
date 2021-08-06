@@ -14,7 +14,7 @@ function [HSVIm] = RGB2HSV(path_to_image)
   V = zeros(m,n);
   for i = 1 : m
     for j = 1 : n
-      if delta(i,j) == 0
+      if delta(i,j)==0
         H(i,j) = 0;
       elseif Cmax(i,j) == r(i,j)
         H(i,j) = 60 * mod(((g(i,j) - b(i,j)) / delta(i,j)), 6);
